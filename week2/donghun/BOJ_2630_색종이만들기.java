@@ -18,28 +18,26 @@ public class BOJ_2630_색종이만들기 {
         map = new int[N][N];
 
 
-        for(int i = 0; i < N; i++) {
+        for (int i = 0; i < N; i++) {
             st = new StringTokenizer(br.readLine());
-            for(int j = 0; j < N; j++) {
+            for (int j = 0; j < N; j++) {
                 map[i][j] = Integer.parseInt(st.nextToken());
             }
         }
 
         div(0, 0, N);
 
-        System.out.println(white+"\n"+blue);
+        System.out.println(white + "\n" + blue);
     }
 
     static void div(int row, int col, int size) {
 
         // 여길 통과하면 각 값 저장하고 종료
-        if(oneColor(row, col, size)) {
-            if(map[row][col] == 0) {
+        if (oneColor(row, col, size)) {
+            if (map[row][col] == 0)
                 white++;
-            }
-            else {
+            else
                 blue++;
-            }
             return;
         }
 
