@@ -207,3 +207,6 @@ replay_pid*
 *.code-workspace
 
 # End of https://www.toptal.com/developers/gitignore/api/java,intellij+all,visualstudiocode,eclipse
+.DS_Store
+
+.iml
