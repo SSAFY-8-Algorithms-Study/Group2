@@ -1,3 +1,5 @@
+package gold;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -67,8 +69,7 @@ public class BOJ3425 {
 				long sec = stack.get(lastIdx-1);
 				stack.remove(lastIdx-1);
 				long value = sec+fst;
-				// 10^9 초과 처리를 위해 long형 사용
-				if(Math.abs(value) > 1000000000L) {
+				if(Math.abs(value) > 1000000000L) { // 10^9 초과 처리를 위해 long형 사용
 					sb.append("ERROR");
 					break;
 				}
@@ -151,12 +152,12 @@ public class BOJ3425 {
 
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		while(1) {
+		while(true) {
 			sb = new StringBuilder();
 			list = new LinkedList<>();
 			numOfN = new LinkedList<>();
 			
-			while(2) {
+			while(true) {
 				String str = br.readLine();
 				// NUM 명령어 시에 입력 숫자를 numOfN에 저장
 				if(str.startsWith("N")) {
@@ -173,11 +174,8 @@ public class BOJ3425 {
 				}
 				list.offer(str);
 			}
-			int n = Integer.parseInt(br.readLine());
 			// n줄의 숫자 입력
-		}
-		
-		for (int i = 0; i < n; i++) {
+			int n = Integer.parseInt(br.readLine());
 			for (int i = 0; i < n; i++) {
 				// 입력 숫자별 프로그램 수행
 				solv(Integer.parseInt(br.readLine()));
