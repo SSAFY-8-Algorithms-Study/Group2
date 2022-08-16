@@ -1,77 +1,161 @@
 package week3.donghun;
 
-import java.util.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.StringTokenizer;
 
 public class BOJ_3425_고스택 {
-    static Stack<Integer> stack;
-    static Queue<String> op;
-    static Queue<Integer> num;
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer st;
+        StringBuilder sb = new StringBuilder();
 
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-
-        stack = new Stack<Integer>();
-        op = new LinkedList<String>();
-
-        // operator 입력
-        while (!(sc.nextLine().equals("END"))) {
-            {
-                op.add(sc.nextLine());
+        exe:while(true) {
+            List<String> operators = new LinkedList<String>();
+            while(true) {
+                String op = br.readLine();
+                if(op.equals("QUIT")) {
+                    break exe;
+                }
+                if(op.equals("END")) {
+                    break;
+                }
+                else {
+                    operators.add(op);
+                }
             }
 
-            // operend 입력
-            while (!(sc.nextLine().equals(""))) {
-                num.add(sc.nextInt());
-//                System.out.print("여기 뭐래냐?:"+Integer.parseInt(sc.nextLine()));
+            int opSize = operators.size();
+            int n = Integer.parseInt(br.readLine());
+            while (n-- > 0) {
+                Long num = Long.parseLong(br.readLine());
+                List<Long> stack = new LinkedList<Long>();
+                stack.add(num);
+                boolean err = false;
+                for(int i=0;i<opSize;i++) {
+                    // 연산자 시작
+                    st = new StringTokenizer(operators.get(i));
+                    String op = st.nextToken();
+                    if(op.equals("NUM")) {
+                        Long x = Long.parseLong(st.nextToken());
+                        stack.add(x);
+                    }else if(op.equals("POP")) {
+                        if(stack.size()<1) {
+                            err = true;
+                            break;
+                        }
+                        stack.remove(stack.size()-1);
+                    }else if(op.equals("INV")) {
+                        if(stack.size()<1) {
+                            err = true;
+                            break;
+                        }
+                        Long nownum = stack.get(stack.size()-1);
+                        stack.remove(stack.size()-1);
+                        stack.add(nownum*(-1));
+                    }else if(op.equals("DUP")) {
+                        if(stack.size()<1) {
+                            err = true;
+                            break;
+                        }
+                        Long nownum = stack.get(stack.size()-1);
+                        stack.add(nownum);
+                    }else if(op.equals("SWP")) {
+                        if(stack.size()<2) {
+                            err = true;
+                            break;
+                        }
+                        Long first = stack.get(stack.size()-1);
+                        Long second = stack.get(stack.size()-2);
+                        stack.remove(stack.size()-1);
+                        stack.remove(stack.size()-1);
+                        stack.add(first);
+                        stack.add(second);
+                    }else if(op.equals("ADD")) {
+                        if(stack.size()<2) {
+                            err = true;
+                            break;
+                        }
+                        long first = stack.get(stack.size()-1);
+                        long second = stack.get(stack.size()-2);
+                        if(Math.abs(second+first) > 1000000000) {
+                            err = true;
+                            break;
+                        }
+                        stack.remove(stack.size()-1);
+                        stack.remove(stack.size()-1);
+                        stack.add(first+second);
+                    }else if(op.equals("SUB")) {
+                        if(stack.size()<2) {
+                            err = true;
+                            break;
+                        }
+                        long first = stack.get(stack.size()-1);
+                        long second = stack.get(stack.size()-2);
+                        if(Math.abs(second-first) > 1000000000) {
+                            err = true;
+                            break;
+                        }
+                        stack.remove(stack.size()-1);
+                        stack.remove(stack.size()-1);
+                        stack.add(second-first);
+                    }else if(op.equals("MUL")) {
+                        if(stack.size()<2) {
+                            err = true;
+                            break;
+                        }
+                        long first = stack.get(stack.size()-1);
+                        long second = stack.get(stack.size()-2);
+                        stack.remove(stack.size()-1);
+                        stack.remove(stack.size()-1);
+                        if(Math.abs(second*first) > 1000000000) {
+                            err = true;
+                            break;
+                        }
+                        stack.add(second*first);
+                    }else if(op.equals("DIV")) {
+                        if(stack.size()<2) {
+                            err = true;
+                            break;
+                        }
+                        Long first = stack.get(stack.size()-1);
+                        Long second = stack.get(stack.size()-2);
+                        if(first == 0) {
+                            err = true;
+                            break;
+                        }
+                        stack.remove(stack.size()-1);
+                        stack.remove(stack.size()-1);
+                        stack.add(second/first);
+                    }else if(op.equals("MOD")) {
+                        if(stack.size()<2) {
+                            err = true;
+                            break;
+                        }
+                        Long first = stack.get(stack.size()-1);
+                        Long second = stack.get(stack.size()-2);
+                        if(first == 0) {
+                            err = true;
+                            break;
+                        }
+                        stack.remove(stack.size()-1);
+                        stack.remove(stack.size()-1);
+                        stack.add(second%first);
+                    }
+                }
+                if(stack.size()>1 || stack.size()==0 ) err = true;
+                if(err) {
+                    sb.append("ERROR").append("\n");
+                }else {
+                    sb.append(stack.get(0)).append("\n");
+                }
             }
-
-            System.out.println(op);
-            System.out.println(num);
-
+            st = new StringTokenizer(br.readLine());
+            sb.append("\n");
         }
-    }
-
-    void NUM(int X) {
-        stack.push(X);
-    }
-    void POP() {
-        stack.pop();
-    }
-    void INV() {
-        stack.push(-stack.pop());
-    }
-    void DUP() {
-        stack.push(stack.peek());
-    }
-    void SWP() {
-        int first = stack.pop();
-        int second = stack.pop();
-        stack.push(first);
-        stack.push(second);
-    }
-    void ADD() {
-        int first = stack.pop();
-        int second = stack.pop();
-        stack.push(first+second);
-    }
-    void SUB() {
-        int first = stack.pop();
-        int second = stack.pop();
-        stack.push(second-first);
-    }
-    void MUL() {
-        int first = stack.pop();
-        int second = stack.pop();
-        stack.push(second*first);
-    }
-    void DIV() {
-        int first = stack.pop();
-        int second = stack.pop();
-        stack.push(second/first);
-    }
-    void MOD() {
-        int first = stack.pop();
-        int second = stack.pop();
-        stack.push(second%first);
+        System.out.println(sb);
     }
 }
