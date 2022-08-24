@@ -8,6 +8,7 @@ public class BOJ_2447_별찍기10 {
     static int N;
 
     public static void main(String[] args) {
+        StringBuilder sb = new StringBuilder();
         Scanner sc = new Scanner(System.in);
         N = sc.nextInt();
 
@@ -18,7 +19,14 @@ public class BOJ_2447_별찍기10 {
         }
         dfs(N, 0, 0);
 
-        System.out.println(Arrays.toString(arr));
+
+        for (int i = 0; i < N; i++) {
+            for (int j = 0; j < N; j++) {
+                sb.append(arr[i][j]);
+            }
+            sb.append("\n");
+        }
+        System.out.print(sb);
     }
 
     public static void dfs(int size, int ni, int nj) {
