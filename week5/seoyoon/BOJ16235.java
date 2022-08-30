@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
+/* BOJ16235 - 나무 재테크 */
 public class BOJ16235 {
 
     static class Tree {
