@@ -38,21 +38,22 @@ public class BOJ16918 {
             String str = br.readLine();
             for (int j = 0; j < C; j++) {
                 char c = str.charAt(j);
-                map[i][j] = (c == '.') ? 0 : 1;
+                map[i][j] = (c == '.') ? 0 : 1;     // 폭탄이 있으면 1 없으면 0으로 배열에 저장 (배열 내의 숫자 = 폭탄이 놓인 후 경과한 시간)
             }
         }
+        // End Input
 
         int time = 2;
         while (time <= N) {
             bombList = new ArrayList<>();
             for (int i = 0; i < R; i++) {
                 for (int j = 0; j < C; j++) {
-                    map[i][j]++;
+                    map[i][j]++;    // 폭탄이 놓인 후 경과한 시간 증가
 
-                    if (time % 2 == 1) {
-                        if (map[i][j] >= 3) {
+                    if (time % 2 == 1) {    // 홀수인 경우
+                        if (map[i][j] >= 3) {   // 3초가 경과한 폭탄들 파바바방 터짐
                             map[i][j] = 0;
-                            bombList.add(new Point(i, j));
+                            bombList.add(new Point(i, j));  // 터진 폭탄 list에 추가
                         }
                     }
                 }
@@ -69,7 +70,7 @@ public class BOJ16918 {
         }
     }
 
-    static void explode(ArrayList<Point> bombList) {
+    static void explode(ArrayList<Point> bombList) {    // list에 저장되어있는 폭탄들의 인접한 폭탄들 터짐
         for (int i = 0; i < bombList.size(); i++) {
             int y = bombList.get(i).y;
             int x = bombList.get(i).x;
