@@ -2,7 +2,9 @@ package week6.seoyoon;
 
 import java.util.Scanner;
 
+/* 백준 10162: 전자레인지 */
 public class BOJ10162 {
+
     public static void main(String[] args) {
         Scanner sc =  new Scanner(System.in);
         int T = sc.nextInt();
