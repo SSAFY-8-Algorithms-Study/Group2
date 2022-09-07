@@ -6,6 +6,7 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
+/* 백준 10025:게으른 백곰 */
 public class BOJ10025 {
 
     public static void main(String[] args) throws IOException {
