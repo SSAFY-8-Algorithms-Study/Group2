@@ -7,7 +7,9 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
+/* 백준 9372:상근이의 여행 */
 public class BOJ9372 {
+
     static int[][] graph;
     static boolean[] visited;
     static int N, M, a, b;
