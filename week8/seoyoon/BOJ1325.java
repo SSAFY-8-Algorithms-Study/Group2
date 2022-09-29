@@ -1,4 +1,4 @@
-package week8;
+package week8.seoyoon;
 
 import java.io.BufferedReader;
 import java.io.IOException;
