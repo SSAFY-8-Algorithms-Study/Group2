@@ -58,7 +58,6 @@ public class BOJ_14267_4번_회사문화1_G4 {
     }
 
     // dfs타고 안으로 갈수록 더해줄 것임
-    // cnt를 들고 다니기에 롤백 자연스럽게 처리됨
     private static void dfs(int boss, int cnt) {
         praise[boss] += cnt;
         for (int i = 0; i < list[boss].size(); i++) {
