@@ -6,11 +6,11 @@
 
 ## 📃 **개요**
 
-- **과제** : 5문제 풀기
-- **마감 시간** : 화요일 24시
-- **문제**: 매주 수요일 업데이트
+- **과제** : 프로그래머스 3문제 풀기
+- **마감 시간** : 매주 목요일 9시
+- **문제**: 매주 목요일 업데이트
 - **시작**: 22.07.24 ~
-- **🏆**: 8월 우수 결과보고서
+- **🏆**: 8월 우수 결과보고서, 10월 우수 결과보고서
 
 ## 🎯 진행방식
 
@@ -33,6 +33,9 @@
 
 ## ✍ 알고리즘 문제 목록
 
+<details>
+<summary>1학기(~week15)</summary>
+<div markdown="1">
 <table align="center">
   <tr>
     <th align="center">번호</th>
@@ -215,3 +218,22 @@
     <td align="center"><a href="https://github.com/SSAFY-8-Algorithms-Study/Study-notice/tree/main/questions/10_9_5week">목록보기</a></td>
   </tr>
 </table>
+
+</div>
+</details>
+
+### week16 - [스택/큐](https://school.programmers.co.kr/learn/courses/30/parts/12081)
+
+1. [올바른 괄호(lv2)](https://school.programmers.co.kr/learn/courses/30/lessons/12909)
+2. [프린터(lv2)](https://school.programmers.co.kr/learn/courses/30/lessons/42587)
+3. [다리를 지나는 트럭(lv2)](https://school.programmers.co.kr/learn/courses/30/lessons/42583)
+
+### week17 - [힙](https://school.programmers.co.kr/learn/courses/30/parts/12117)
+
+1. [더 맵게(lv2)](https://school.programmers.co.kr/learn/courses/30/lessons/42626)
+2. [디스크 컨트롤러(lv3)](https://school.programmers.co.kr/learn/courses/30/lessons/42627)
+3. [이중우선순위큐(lv3)](https://school.programmers.co.kr/learn/courses/30/lessons/42628)
+
+### week18 - 정렬
+
+### week19 - 완전탐색
