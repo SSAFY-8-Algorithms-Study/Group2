@@ -24,6 +24,6 @@ class Solution {
             answer += str;
         }
         
-        return Integer.parseInt(answer) == 0 ? "0" : answer;
+        return answer.charAt(0) == '0' ? "0" : answer;
     }
 }
