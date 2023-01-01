@@ -7,6 +7,6 @@ public class PRO_가장_큰_수 {
     public String solution(int[] numbers) {
         String answer = Arrays.stream(numbers).mapToObj(Integer::toString).sorted((o1, o2) -> (o2+o1).compareTo(o1+o2)).collect(Collectors.joining());
 
-        return answer;
+        return answer.charAt(0) == '0' ? "0" : answer;
     }
 }
