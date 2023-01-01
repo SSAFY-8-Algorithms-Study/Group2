@@ -2,7 +2,7 @@
 
 ## 👨‍💻 인원
 
-[김인수](https://github.com/iknowkis), [박서윤](https://github.com/seoyoon528), [손민혁](https://github.com/sonmh79), [이동훈](https://github.com/GIT-KINDMAN), [차현경](https://github.com/chahk03), [김동률](https://github.com/lancelot1672) (22.09~)
+[김인수](https://github.com/iknowkis)(~22.12.31), [박서윤](https://github.com/seoyoon528), [손민혁](https://github.com/sonmh79), [이동훈](https://github.com/GIT-KINDMAN), [차현경](https://github.com/chahk03), [김동률](https://github.com/lancelot1672) (22.09~)
 
 ## 📃 **개요**
 
@@ -240,4 +240,8 @@
 2. [가장 큰 수(lv2)](https://school.programmers.co.kr/learn/courses/30/lessons/42746)
 3. [H-index(lv2)](https://school.programmers.co.kr/learn/courses/30/lessons/42747)
 
-### week19 - 완전탐색
+### week19 - [완전탐색](https://school.programmers.co.kr/learn/courses/30/parts/12230)
+
+1. [소수 찾기(lv2)](https://school.programmers.co.kr/learn/courses/30/lessons/42839)
+2. [전력망을 둘로 나누기(lv2)](https://school.programmers.co.kr/learn/courses/30/lessons/86971)
+3. [모음사전(lv2)](https://school.programmers.co.kr/learn/courses/30/lessons/84512)
