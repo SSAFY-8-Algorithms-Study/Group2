@@ -2,7 +2,7 @@
 
 ## 👨‍💻 인원
 
-[김인수](https://github.com/iknowkis)(~ 22.12.31), [박서윤](https://github.com/seoyoon528), [손민혁](https://github.com/sonmh79), [이동훈](https://github.com/GIT-KINDMAN), [차현경](https://github.com/chahk03), [김동률](https://github.com/lancelot1672) (22.09~)
+[김인수](https://github.com/iknowkis), [박서윤](https://github.com/seoyoon528), [손민혁](https://github.com/sonmh79), [이동훈](https://github.com/GIT-KINDMAN), [차현경](https://github.com/chahk03), [김동률](https://github.com/lancelot1672) (22.09~)
 
 ## 📃 **개요**
 
