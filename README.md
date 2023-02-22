@@ -222,6 +222,8 @@
 </div>
 </details>
 
+<details>
+<summary>2학기(~2/19, week23) 프로그래머스</summary>
 ### week16 - [스택/큐](https://school.programmers.co.kr/learn/courses/30/parts/12081)
 
 1. [올바른 괄호(lv2)](https://school.programmers.co.kr/learn/courses/30/lessons/12909)
@@ -263,3 +265,30 @@
 1. [타겟 넘버(lv2)](https://school.programmers.co.kr/learn/courses/30/lessons/43165)
 2. [게임 맵 최단거리(lv2)](https://school.programmers.co.kr/learn/courses/30/lessons/1844)
 3. [네트워크(lv3)](https://school.programmers.co.kr/learn/courses/30/lessons/43162)
+
+### week23 - [이분탐색/그래프](https://school.programmers.co.kr/learn/courses/30/parts/12486)
+
+1. [입국심사(lv3)](https://school.programmers.co.kr/learn/courses/30/lessons/43238)
+2. [가장 먼 노드(lv3)](https://school.programmers.co.kr/learn/courses/30/lessons/49189)
+3. [순위(lv3)](https://school.programmers.co.kr/learn/courses/30/lessons/49191)
+</details>
+
+23.02.20, 24주차부터는 [백준 대기업 코테 비슷한 유형 문제집](https://www.acmicpc.net/workbook/view/8708) 을 순서대로 풉니다.
+
+ 
+
+### week24 (~2/16) 
+
+[23971. ZOAC 4](https://www.acmicpc.net/problem/23971) / 
+[5073. 삼각형과 세 변](https://www.acmicpc.net/problem/5073) /
+[2292. 벌집](https://www.acmicpc.net/problem/2292) /
+[1157. 단어 공부](https://www.acmicpc.net/problem/1157) /
+[1157. 집합](https://www.acmicpc.net/problem/11723)
+
+### week25 (~2/23)
+
+[9655. 돌 게임](https://www.acmicpc.net/problem/9655) /
+[10431. 줄세우기](https://www.acmicpc.net/problem/10431) /
+[8979. 올림픽](https://www.acmicpc.net/problem/8979) /
+[7568. 덩치](https://www.acmicpc.net/problem/7568) /
+[4659. 비밀번호 발음하기](https://www.acmicpc.net/problem/4659) 
