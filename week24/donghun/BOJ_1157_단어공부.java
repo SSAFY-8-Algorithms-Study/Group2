@@ -12,23 +12,20 @@ public class BOJ_1157_단어공부 {
 
         String str = br.readLine().toUpperCase();
 
-        int[] arr = new int[26];
-        int max = 0;
-        char answer = 0;
+        int[] arr = new int[26]; // 알파벳 배열
+        int max = 0; // 가장 많은 알파벳
+        char answer = 0; // max 알파벳
 
         for (int i = 0; i < str.length(); i++) {
-            arr[str.charAt(i) - 65]++;
-            if (arr[str.charAt(i) - 65] > max) {
-                answer = str.charAt(i);
-                max = arr[str.charAt(i) - 65];
-            } else if (max == arr[str.charAt(i) - 65]) {
-                answer = '?';
+            arr[str.charAt(i) - 65]++; // 들어온 알파벳 갯수 증가
+            if (arr[str.charAt(i) - 65] > max) { // 기존 max보다 커졌으면
+                answer = str.charAt(i); // 갱신
+                max = arr[str.charAt(i) - 65]; // max 값도 갱신
+            } else if (max == arr[str.charAt(i) - 65]) { // 같은게 있으면
+                answer = '?'; // ?로 갱신
             }
         }
 
-        System.out.println(answer);
-
-
+        System.out.println(answer); // 최종 출력
     }
-
 }
