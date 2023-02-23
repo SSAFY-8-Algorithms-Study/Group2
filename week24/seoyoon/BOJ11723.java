@@ -19,7 +19,7 @@ public class BOJ11723 {
             StringTokenizer st = new StringTokenizer(br.readLine());
             String operator = st.nextToken();
 
-            switch(operator) {
+            switch (operator) {
                 case "add":
                     ad.add(Integer.parseInt(st.nextToken()));
                     break;
@@ -36,8 +36,7 @@ public class BOJ11723 {
                     int x = Integer.parseInt(st.nextToken());
                     if (ad.contains(x)) {
                         ad.remove(x);
-                    }
-                    else {
+                    } else {
                         ad.add(x);
                     }
                     break;

@@ -23,8 +23,7 @@ public class BOJ1157 {
                 max = alpha[idx];
                 maxAlpha = word.charAt(i);
                 flag = false;
-            }
-            else if (alpha[idx] == max) {
+            } else if (alpha[idx] == max) {
                 flag = true;
             }
         }
