@@ -299,3 +299,10 @@
 [20125. 쿠키의 신체 측정](https://www.acmicpc.net/problem/20125) /
 [13549. 숨바꼭질 3](https://www.acmicpc.net/problem/13549) /
 [12919. A와 B 2](https://www.acmicpc.net/problem/12919)
+
+### week27 (~3/9)
+
+[1205. 등수 구하기](https://www.acmicpc.net/problem/1205) /
+[1244. 스위치 켜고 끄기](https://www.acmicpc.net/problem/1244) /
+[20055. 컨베이어 벨트 위의 로봇](https://www.acmicpc.net/problem/20055) /
+[20437. 문자열 게임 2](https://www.acmicpc.net/problem/20437)
