@@ -1,4 +1,4 @@
-package group;
+package week10.donghun;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
-public class week10_1번 {
+public class BOJ_18353_병사배치하기_S2 {
     static int N;
     static int[] arr;
 

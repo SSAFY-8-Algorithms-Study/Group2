@@ -1,4 +1,4 @@
-package week38.donghun;
+package week37.donghun;
 
 import java.io.BufferedReader;
 import java.io.IOException;

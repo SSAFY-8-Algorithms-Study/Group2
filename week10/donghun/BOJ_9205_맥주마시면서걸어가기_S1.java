@@ -1,4 +1,4 @@
-package group;
+package week10.donghun;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-public class week10_2번 {
+public class BOJ_9205_맥주마시면서걸어가기_S1 {
     static Point start, end;
     static Point[] depots;
     static boolean[] visited;

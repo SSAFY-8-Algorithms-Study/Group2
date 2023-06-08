@@ -1,11 +1,11 @@
-package group;
+package week10.donghun;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class week10_3번 {
+public class BOJ_1189_컴백홈_S1 {
     static int R, C, K;
     static int[][] map;
     static boolean[][] visited;
