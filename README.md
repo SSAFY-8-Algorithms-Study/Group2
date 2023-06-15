@@ -6,7 +6,7 @@
 
 ## 📃 **개요**
 
-- **과제** : 프로그래머스 3문제 풀기
+- **과제** : 백준 4문제 풀기
 - **마감 시간** : 매주 목요일 9시
 - **문제**: 매주 목요일 업데이트
 - **시작**: 22.07.24 ~
@@ -276,7 +276,8 @@
 23.02.20, 24주차부터는 [백준 대기업 코테 비슷한 유형 문제집](https://www.acmicpc.net/workbook/view/8708) 을 순서대로 풉니다.
 
  
-
+<details>
+  <summary>2학기 프로젝트 기간 ~week36</summary>
 ### week24 (~2/16) 
 
 [23971. ZOAC 4](https://www.acmicpc.net/problem/23971) / 
@@ -306,3 +307,89 @@
 [1244. 스위치 켜고 끄기](https://www.acmicpc.net/problem/1244) /
 [20055. 컨베이어 벨트 위의 로봇](https://www.acmicpc.net/problem/20055) /
 [20437. 문자열 게임 2](https://www.acmicpc.net/problem/20437)
+  
+### week28 (~3/19)
+
+[9017. 크로스 컨트리](https://www.acmicpc.net/problem/9017) /
+[2164. 카드 2](https://www.acmicpc.net/problem/2164) /
+[16234. 인구 이동](https://www.acmicpc.net/problem/16234) /
+[2493. 탑](https://www.acmicpc.net/problem/2493)
+
+### week29 (~3/26)
+
+[13305. 주유소](https://www.acmicpc.net/problem/13305) /
+[20920. 영단어 암기는 괴로워](https://www.acmicpc.net/problem/20920) /
+[14719. 빗물](https://www.acmicpc.net/problem/14719) /
+[5972. 탑](https://www.acmicpc.net/problem/5972)
+  
+### week30 (~4/2)
+
+[2512. 예산](https://www.acmicpc.net/problem/2512) /
+[21921. 블로그](https://www.acmicpc.net/problem/21921) /
+[2467. 용액](https://www.acmicpc.net/problem/2467) /
+[2138. 전구와 스위치](https://www.acmicpc.net/problem/2138)
+ 
+### week31 (~4/16)
+
+[1515. 수 이어 쓰기](https://www.acmicpc.net/problem/1515) /
+[19941. 햄버거 분배](https://www.acmicpc.net/problem/19941) /
+[7682. 틱택토](https://www.acmicpc.net/problem/7682) /
+[2668. 숫자고르기](https://www.acmicpc.net/problem/2668)
+
+### week32 (~4/23)
+
+[17484. 진우의 달 여행(Small)](https://www.acmicpc.net/problem/17484) /
+[2607. 비슷한 단어](https://www.acmicpc.net/problem/2607) /
+[1863. 스카이라인 쉬운거](https://www.acmicpc.net/problem/1863) /
+[22251. 빌런 호석](https://www.acmicpc.net/problem/22251)
+  
+### week33 (~4/30)
+
+[3758. KCPC](https://www.acmicpc.net/problem/3758) /
+[20310. 타노스](https://www.acmicpc.net/problem/20310) /
+[7490. 0 만들기](https://www.acmicpc.net/problem/7490) /
+[4485. 녹색 옷 입은 애가 젤다지?](https://www.acmicpc.net/problem/4485)
+  
+### week34 (~5/7)
+
+[19637. IF문 좀 대신 써줘](https://www.acmicpc.net/problem/19637) /
+[22233. 가희와 키워드](https://www.acmicpc.net/problem/22233) /
+[1253. 좋다](https://www.acmicpc.net/problem/1253) /
+[1806. 부분합](https://www.acmicpc.net/problem/1806)
+  
+### week35 (~5/14)
+
+[1927. 최소 힙](https://www.acmicpc.net/problem/1927) /
+[20006. 랭킹전 대기열](https://www.acmicpc.net/problem/20006) /
+[2110. 공유기 설치](https://www.acmicpc.net/problem/2110) /
+[4179. 불!](https://www.acmicpc.net/problem/4179)
+  
+### week36 (~5/21)
+
+[11501. 주식](https://www.acmicpc.net/problem/11501) /
+[1406. 에디터](https://www.acmicpc.net/problem/1406) /
+[9935. 문자열 폭발](https://www.acmicpc.net/problem/9935) /
+[13144. List of Unique Numbers](https://www.acmicpc.net/problem/13144)
+</details>
+
+  
+### week37 (~6/4)
+
+[2669. 직사각형 네개의 합집합의 면적 구하기](https://www.acmicpc.net/problem/2669) /
+[2659. 십자카드 문제](https://www.acmicpc.net/problem/2659) /
+[2641. 다각형그리기](https://www.acmicpc.net/problem/2641) /
+[2116. 주사위 쌓기](https://www.acmicpc.net/problem/2116)
+  
+### week38 (~6/8)
+
+[3273. 두 수의 합](https://www.acmicpc.net/problem/3273) /
+[2075. N번째 큰 수](https://www.acmicpc.net/problem/2075) /
+[10597. 순열장난](https://www.acmicpc.net/problem/10597) /
+[2931. 가스관](https://www.acmicpc.net/problem/2931)
+  
+### week39 (~6/15)
+
+[5568. 카드 놓기](https://www.acmicpc.net/problem/5568) /
+[19699. 소-난다!](https://www.acmicpc.net/problem/19699) /
+[1342. 행운의 문자열](https://www.acmicpc.net/problem/1342) /
+[16938. 캠프 준비](https://www.acmicpc.net/problem/16938)
