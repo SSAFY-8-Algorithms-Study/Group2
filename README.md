@@ -393,3 +393,31 @@
 [19699. 소-난다!](https://www.acmicpc.net/problem/19699) /
 [1342. 행운의 문자열](https://www.acmicpc.net/problem/1342) /
 [16938. 캠프 준비](https://www.acmicpc.net/problem/16938)
+
+### week40 (~6/22)
+
+[12933. 오리](https://www.acmicpc.net/problem/12933) /
+[1183. 약속](https://www.acmicpc.net/problem/1183) /
+[1563. 개근상](https://www.acmicpc.net/problem/1563) /
+[2933. 미네랄](https://www.acmicpc.net/problem/2933)
+
+### week41 (~6/29)
+
+[14620. 꽃길](https://www.acmicpc.net/problem/14620) /
+[15989. 1,2,3 더하기 4](https://www.acmicpc.net/problem/15989) /
+[11559. Puyo Puyo](https://www.acmicpc.net/problem/11559) /
+[11812. K진 트리](https://www.acmicpc.net/problem/11812)
+
+### week42 (~7/6)
+
+[1283. 단축키 지정](https://www.acmicpc.net/problem/1283) /
+[17128. 소가 정보섬에 올라온 이유](https://www.acmicpc.net/problem/17128) /
+[18430. 무기 공학](https://www.acmicpc.net/problem/18430) /
+[18808. 스티커 붙이기](https://www.acmicpc.net/problem/18808)
+
+### week43 (~7/13)
+
+[15663. N과 M (9)](https://www.acmicpc.net/problem/15663) /
+[15664. N과 M (10)](https://www.acmicpc.net/problem/15664) /
+[13913. 숨바꼭질 4](https://www.acmicpc.net/problem/13913) /
+[17071. 숨바꼭질 5](https://www.acmicpc.net/problem/17071)
